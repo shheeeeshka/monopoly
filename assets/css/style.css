@@ -9,6 +9,10 @@ body {
     perspective: 500px;
 }
 
+img {
+    pointer-events: none;
+}
+
 .main {
     height: 100vh;
     width: 100vw;
@@ -186,8 +190,7 @@ body {
     flex-direction: column;
 }
 
-.section-description-1 .brand,
-.section-description-2 .brand {
+.section-description-1 .brand {
     background-color: pink;
 }
 
@@ -237,6 +240,7 @@ body {
 .description-rs-2 {
     display: flex;
     flex-direction: column;
+    color: darkslategrey;
 }
 
 .description-part-3 {
@@ -255,12 +259,37 @@ body {
 .description-rs-3 {
     display: flex;
     flex-direction: column;
+    color: darkslategrey;
+}
+
+.section-description-3 .brand {
+    background-color: #d1ad0c;
 }
 
 .description-part-1,
 .description-part-2,
 .description-part-3 {
     margin-left: 10px;
+}
+
+.section-description-bottom {
+    margin-bottom: 900px;
+}
+
+.section-description-2 .brand {
+    background-color: brown;
+}
+
+.section-description-5 .brand {
+    background-color: #863600;
+}
+
+.section-description-7 .brand {
+    background-color: forestgreen;
+}
+
+.section-description-8 .brand {
+    background-color: #3f70ff;
 }
 
 .rent-level {

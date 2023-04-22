@@ -1,5 +1,37 @@
 "use strict";
 
+const section = document.querySelectorAll(".section"),
+  sectionDescription = document.querySelectorAll(".section-description");
+
+// section.forEach((s) => {
+//   s.addEventListener("mousedown", () => {
+//     sectionDescription[0].style.display = "flex";
+//   });
+//   s.addEventListener("mouseup", () => {
+//     sectionDescription[0].style.display = "none";
+//   });
+// });
+
+section.forEach((e) => {
+  e.addEventListener('mousedown', () => {
+    sectionDescription.forEach((elem) => {
+      console.log(elem);
+    });
+  });
+});
+
+// function displaySectionDesciption(mouseE, sectionD) {
+//     if (mouseE.type === 'mouseover') {
+//         sectionD.style = 'display: flex';
+//     } else if (mouseE.type === 'mouseout') {
+//         sectionD.style = 'display: none';
+//     }
+// }
+
+// const mouseEvent = document.querySelectorAll('.section'),
+//     sectionDescription = document.querySelectorAll('.section-description');
+// displaySectionDesciption(mouseEvent, sectionDescription);
+
 // let x = 0,
 //     y = 0;
 
@@ -8,7 +40,7 @@
 //   if(e.keyCode == 39) y += 5;
 //   if(e.keyCode == 38) x += 5;
 //   if(e.keyCode == 40) x -= 5;
- 
+
 //  document.querySelector('.cube').style.transform = `rotateY(${y}deg) rotateX(${x}deg)`;
 // });
 
