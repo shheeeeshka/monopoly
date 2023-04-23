@@ -1,7 +1,16 @@
 "use strict";
 
-const section = document.querySelectorAll(".section"),
+const section = document.querySelectorAll(".active"),
   sectionDescription = document.querySelectorAll(".section-description");
+
+  for (let i = 0; i < section.length; i++) {
+    section[i].addEventListener('mousedown', () => {
+      sectionDescription[i].style.display = 'flex';
+    });
+    section[i].addEventListener('mouseup', () => {
+      sectionDescription[i].style.display = 'none';
+    });
+  }
 
 // section.forEach((s) => {
 //   s.addEventListener("mousedown", () => {
@@ -12,13 +21,13 @@ const section = document.querySelectorAll(".section"),
 //   });
 // });
 
-section.forEach((e) => {
-  e.addEventListener('mousedown', () => {
-    sectionDescription.forEach((elem) => {
-      console.log(elem);
-    });
-  });
-});
+// section.forEach((e) => {
+//   e.addEventListener('mousedown', () => {
+//     sectionDescription.forEach((elem) => {
+//       console.log(elem);
+//     });
+//   });
+// });
 
 // function displaySectionDesciption(mouseE, sectionD) {
 //     if (mouseE.type === 'mouseover') {

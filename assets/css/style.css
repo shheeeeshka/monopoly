@@ -262,10 +262,6 @@ img {
     color: darkslategrey;
 }
 
-.section-description-3 .brand {
-    background-color: #d1ad0c;
-}
-
 .description-part-1,
 .description-part-2,
 .description-part-3 {
@@ -276,12 +272,42 @@ img {
     margin-bottom: 900px;
 }
 
+.section-description-right {
+    margin-right: 350px;
+    margin-bottom: 190px;
+}
+
+.section-description-left {
+    margin-left: 350px;
+    margin-bottom: 190px;
+}
+
+.s-d-side-penult {
+    margin-bottom: 570px;
+}
+
+.s-d-side-last {
+    margin-bottom: 710px;
+}
+
 .section-description-2 .brand {
     background-color: brown;
 }
 
+.section-description-3 .brand {
+    background-color: #d1ad0c;
+}
+
+.section-description-4 .brand {
+    background-color: cadetblue;
+}
+
 .section-description-5 .brand {
     background-color: #863600;
+}
+
+.section-description-6 .brand {
+    background-color: darkorchid;
 }
 
 .section-description-7 .brand {
@@ -290,6 +316,14 @@ img {
 
 .section-description-8 .brand {
     background-color: #3f70ff;
+}
+
+.section-description-9 .brand {
+    background-color: lightsalmon;
+}
+
+.section-description-10 .brand {
+    background-color: dimgrey;
 }
 
 .rent-level {
